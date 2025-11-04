@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Projeto: Acendimento de LED com Ímã</title>
+  <title>Projeto: Luz Rítmica com LEDs</title>
 
   <!-- Fonte Inter -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -91,6 +91,13 @@
       color: #555;
     }
 
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 20px;
+      border-radius: 8px;
+    }
+
     @media (max-width: 600px) {
       header h1 {
         font-size: 2.2rem;
@@ -103,48 +110,51 @@
 </head>
 <body>
   <header>
-    <h1>Acendimento de LED com Ímã</h1>
+    <h1>Luz Rítmica com LEDs</h1>
   </header>
 
   <div class="container">
     <section id="grupo">
       <h2>O Grupo</h2>
       <p>
-        Nosso grupo é composto por três alunos da Universidade São Francisco (USF), unidos pelo interesse comum em explorar o universo da tecnologia de forma prática e acessível.
+        Nosso grupo é formado por alunos da Universidade São Francisco (USF) apaixonados por tecnologia, eletrônica e criatividade aplicada.
         <br /><br />
-        Acreditamos que a melhor forma de aprender é colocando a mão na massa, e este projeto nos proporcionou exatamente isso: a oportunidade de transformar teoria em experiência real.
+        A ideia do projeto surgiu da vontade de unir som e luz em uma experiência interativa e visualmente envolvente. Acreditamos que aprender se torna mais interessante quando colocamos a teoria em prática, e este trabalho foi uma excelente oportunidade de fazer exatamente isso.
         <br /><br />
-        Somos movidos pela curiosidade e pela vontade de inovar, e queremos demonstrar que, mesmo com recursos simples, é possível criar soluções funcionais e interessantes, aproximando a tecnologia do cotidiano.
+        Cada integrante contribuiu com diferentes habilidades — desde a montagem do circuito até os testes e ajustes — mostrando que, com colaboração e curiosidade, é possível criar algo simples, funcional e muito interessante.
       </p>
     </section>
 
     <section id="objetivo">
       <h2>Objetivo</h2>
       <p>
-        Nosso principal objetivo com este projeto é compartilhar conhecimento de forma leve, acessível e intuitiva.
+        O objetivo deste projeto é desenvolver um sistema de <strong>luz rítmica com LEDs</strong> que reage conforme a intensidade do som captado de uma fonte de áudio, como uma caixa de som ou saída P2.
         <br /><br />
-        Acreditamos que aprender sobre eletrônica e tecnologia não precisa ser complicado, pelo contrário, pode ser algo prático e até divertido.
+        Por meio desse projeto, buscamos compreender e demonstrar conceitos de eletrônica, como detecção de sinal, filtragem e controle de corrente elétrica, além de explorar a relação entre estímulos sonoros e respostas luminosas.
         <br /><br />
-        Por meio de uma montagem simples, buscamos despertar o interesse por conceitos técnicos que estão presentes no nosso dia a dia, mostrando que mesmo ideias aparentemente complexas podem ser compreendidas e aplicadas com facilidade.
+        O resultado é um circuito que transforma música em luz, proporcionando uma experiência visual sincronizada com o ritmo e a energia das batidas musicais.
       </p>
     </section>
 
     <section id="descricao">
-770827
+      <h2>Como Funciona o Projeto</h2>
+      <p>
+        O sistema de <strong>Luz Rítmica</strong> utiliza <strong>10 LEDs</strong> dispostos em três cores:
+        <strong>4 verdes</strong>, <strong>3 amarelos</strong> e <strong>3 vermelhos</strong>.
+        <br /><br />
+        Dois fios conectam o circuito à saída de som de um dispositivo de áudio. As variações de intensidade do sinal elétrico — causadas pelas batidas e frequências da música — são interpretadas pelo circuito e fazem os LEDs acenderem de forma pulsante.
+        <br /><br />
+        Quando o som é mais suave, apenas os LEDs verdes são ativados; conforme a intensidade aumenta, os amarelos e vermelhos entram em ação, criando um efeito visual dinâmico e proporcional ao volume e ritmo da música.
+        <br /><br />
+        Essa integração entre eletrônica e som demonstra como conceitos simples podem ser aplicados de forma criativa e divertida, transformando energia sonora em um espetáculo de luz.
+      </p>
+
+      <img src="20251020_232723.jpg" alt="Circuito de luz rítmica com LEDs em funcionamento" />
+    </section>
   </div>
-<h2>Como Funciona o Projeto Luz Ritma</h2>
-<p>
-  O <strong>Luz Ritma</strong> é um projeto que transforma música em luz! Ele utiliza uma <strong>caixa de som conectada a um circuito de LEDs</strong>, fazendo com que as luzes acompanhem o ritmo e a intensidade sonora das músicas reproduzidas.
-  <br /><br />
-  Quando o som é mais forte ou as batidas são mais intensas, mais LEDs acendem — criando um efeito visual dinâmico que sincroniza com o áudio em tempo real. Esse comportamento é possível graças à captação do sinal de áudio e à sua conversão em variações elétricas que controlam os LEDs.
-  <br /><br />
-  O objetivo do projeto é demonstrar, de forma prática e envolvente, como é possível integrar <strong>conceitos de eletrônica e sensoriamento de áudio</strong> para criar experiências interativas. Com componentes simples e acessíveis, o Luz Ritma une som e luz em uma representação visual do ritmo musical.
-</p>
-<img src="20251020_232723.jpg" alt="Foto do circuito Luz Ritma em funcionamento" style="max-width: 100%; height: auto; margin-top: 20px; border-radius: 8px;" />
+
   <footer>
     Projeto universitário • Universidade São Francisco • 2025
   </footer>
 </body>
 </html>
-
-
